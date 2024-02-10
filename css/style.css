@@ -1,0 +1,54 @@
+header{
+    background-color: rgb(62, 110, 230);
+    border-bottom: 2px solid red;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-signature h1{
+    margin: 0;
+}
+.header-signature h2{
+    margin: 0;
+    color: white;
+}
+.header-login a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+
+body{   
+    margin: 0;
+}
+.book{
+    border: 1px solid rgb(8, 8, 8);
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.book-photo{
+    border: 3px solid rgb(83, 5, 5);
+    margin: 15px;
+}
+.description-book h2{
+    margin: 15px;
+    display: block;
+}
+.description-book p{
+    margin: 15px;
+}
+.description-book a{
+    float: right; 
+    margin-right: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+
