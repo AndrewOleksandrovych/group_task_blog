@@ -1,0 +1,115 @@
+header{
+    background-color: rgb(62, 110, 230);
+    border-bottom: 2px solid red;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-signature h1{
+    margin: 0;
+}
+.header-signature h2{
+    margin: 0;
+    color: white;
+}
+.header-login a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+
+body{
+    margin: 0;
+}
+.all-platform{
+ border: 1px solid black;
+ margin: 15px;
+ display: flex;
+ flex-direction:column;
+ background-color:lightgray;
+}
+img{
+    border: 3px solid brown;
+}
+.book{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    border-bottom:5px solid blue;
+
+}
+.content{
+    width: 100%;
+}
+.description-book a{
+ color: blue;
+}
+.description-book p{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.location-h4 {
+    text-align: right;
+}
+
+
+.my-favorite-book{
+    text-decoration: underline;
+    color: green;
+    tab-size: 12px;
+}
+.first-name{
+    tab-size: 12px;
+    font-weight: 100;
+}
+
+.description-book-text{
+    text-indent: 10px;
+    margin-left:20px;
+
+}
+.location-h4 a{
+  text-size-adjust: 12px;
+  color: green;
+  margin: 0;
+}
+
+.born-author {
+    margin-left:0 20px;
+    margin-bottom: 0;
+}
+.zmist{
+    margin: 0 20px;
+    color: brown;
+}
+a:hover{
+    color: #da3e84; 
+    text-decoration: none;
+  }
+.content-zmist p{
+    margin-left: 60px;   
+}
+.content-zmist a:hover{
+    color: #861091; 
+    text-decoration: none;
+  }
+.content-zmist a{
+    color: brown;
+}
+/* footer */
+
+footer {
+    display: grid;
+    place-content: center;
+    background-color: #212323;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
