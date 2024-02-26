@@ -1,90 +1,91 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій особистий блог</title>
+    <title>Git_commands</title>
     <link rel="stylesheet" href="/css/commandsGit.css">
-    <link rel="shortcut icon" type="image/png" href="/add/photo/favicon-32x32.png"/>
 </head>
-<body>
-    <header>
-        <div class="header-main">   
-            <div class="header-signature">
-                <h1>Мій особистий блог</h1>
-                <h2>Кожухар Андрій</h2>
-            </div>
-            <div class="header-login">
-                <a href="login.html" class="login-a">Вхід</a>
-                <a href="register.html">Регістрація</a>
-            </div>
-        </div>   
-    </header>
 
-    <!-- body -->
-        <main>
-            <div class="column" id="col1">
-                <h1 id="rep">Create a Repository</h1>
-                <p><small>From scratch --Create a new local<br>repository </small></p>
-                <p><b>$ git init [project name]</b></p>
-                <br>
-                <h1 id="rep"> Observe your Repository</h1>
-                <p><small>List new or modified files no yet<br>
-                        commited</small></p>
-                <p><b>$ git status</b></p>
-                <p><small>Show the changes to files not yet<br>
-                        staged</small></p>
-                <p><b>$ git diff</b></p>
-                <p><small>Show the changes to staged files</small></p>
-                <p><b>$ git diff --cached</b></p>
-                <p><small>Show all staged and unstaged<br>
-                        file changes</small></p>
-                <p><b>$ git diff HEAD</b></p>
-                <p><small>Show the changes between two<br>
-                        commit ids</small></p>
-                <p><b>$ git diff commit1 commit2</b></p>
-                <p><small>List the change dates and authors<br>
-                        for a file</small></p>
-                <p><b>$ git blame [file]</b></p>
-                <p><small>Show the file changes for a commit<br>
-                        id and/or file</small></p>
-                <p><b>$ git show [commit]:[file]</b></p>
-                <p><small>Show full change history</small></p>
-                <p><b>$ git log</b></p>
-                <p><small>Show change history for file/directory<br>
-                        including diffs</small></p>
-                <p><b>$ git log -p [file/directory]</b></p>
-    
-            </div>
-    
-    
-            <div class="column">
-                <h1 id="rep1">Working with Branch</h1>
-                <p><small>List all local branches</small></p>
-                <p><b>$ git branch</b></p>
-                <br>
-                <p><small>List all branche, local and remote </small></p>
-                <p><b>$ git branch -av</b></p>
-                <br>
-                <p><small>Switch to a branch, my branch,<br>
-                        and update working directory</small></p>
-                <p><b>$ git checkout my_branch</b></p>
-                <br>
-                <p><small>Create a new branch called new_branch </small></p>
-                <p><b>$ git checkout new_branch</b></p>
-                <br>
-                <p><small>Delete the branch calles my_branch </small></p>
-                <p><b>$ git branch -d my_branch</b></p>
-                <br>
-                <p><small>Merge branch_a into branch_b </small></p>
-                <p><b>$ git checkout branch_b</b></p>
-                <p><b>$ git merge branch_a</b></p>
-                <br>
-                <p><small>Tag the current commit</small></p>
-                <p><b>$ git tag my_tag</b></p>
-                <br>
-            </div>
-            <div class="column" id="col3">
+<body>
+        <header>
+                <div class="header-main">   
+                    <div class="header-signature">
+                        <h1>Мій особистий блог</h1>
+                        <h2>Кожухар Андрій</h2>
+                    </div>
+                    <div class="header-login">
+                        <a href="login.html" class="login-a">Вхід</a>
+                        <a href="">Регістрація</a>
+                    </div>
+                </div>   
+            </header>
+
+    <main>
+        <div class="column" id="col1">
+            <h1 id="rep">Create a Repository</h1>
+            <p><small>From scratch --Create a new local<br>repository </small></p>
+            <p><b>$ git init [project name]</b></p>
+            <br>
+            <h1 id="rep"> Observe your Repository</h1>
+            <p><small>List new or modified files no yet<br>
+                    commited</small></p>
+            <p><b>$ git status</b></p>
+            <p><small>Show the changes to files not yet<br>
+                    staged</small></p>
+            <p><b>$ git diff</b></p>
+            <p><small>Show the changes to staged files</small></p>
+            <p><b>$ git diff --cached</b></p>
+            <p><small>Show all staged and unstaged<br>
+                    file changes</small></p>
+            <p><b>$ git diff HEAD</b></p>
+            <p><small>Show the changes between two<br>
+                    commit ids</small></p>
+            <p><b>$ git diff commit1 commit2</b></p>
+            <p><small>List the change dates and authors<br>
+                    for a file</small></p>
+            <p><b>$ git blame [file]</b></p>
+            <p><small>Show the file changes for a commit<br>
+                    id and/or file</small></p>
+            <p><b>$ git show [commit]:[file]</b></p>
+            <p><small>Show full change history</small></p>
+            <p><b>$ git log</b></p>
+            <p><small>Show change history for file/directory<br>
+                    including diffs</small></p>
+            <p><b>$ git log -p [file/directory]</b></p>
+
+        </div>
+
+
+        <div class="column">
+            <h1 id="rep1">Working with Branch</h1>
+            <p><small>List all local branches</small></p>
+            <p><b>$ git branch</b></p>
+            <br>
+            <p><small>List all branche, local and remote </small></p>
+            <p><b>$ git branch -av</b></p>
+            <br>
+            <p><small>Switch to a branch, my branch,<br>
+                    and update working directory</small></p>
+            <p><b>$ git checkout my_branch</b></p>
+            <br>
+            <p><small>Create a new branch called new_branch </small></p>
+            <p><b>$ git checkout new_branch</b></p>
+            <br>
+            <p><small>Delete the branch calles my_branch </small></p>
+            <p><b>$ git branch -d my_branch</b></p>
+            <br>
+            <p><small>Merge branch_a into branch_b </small></p>
+            <p><b>$ git checkout branch_b</b></p>
+            <p><b>$ git merge branch_a</b></p>
+            <br>
+            <p><small>Tag the current commit</small></p>
+            <p><b>$ git tag my_tag</b></p>
+            <br>
+        </div>
+
+<div class="column" id="col3">
             <h1 id="rep3">Make a change</h1>
             <p><small>Stages the file, ready for commit</small></p>
             <p><b>$ git add [file]</b></p>
@@ -133,13 +134,14 @@
             </p>
         </div>
     </main>
-    </body>
 
 
-    <!-- footer -->
     <footer>
         <p>&copy; 2024Кожухар Андрій</p>
         <p>Розробник курсант 212 навчальної групи Кожухар А.О.</p>
     </footer>
-    </body>
-    </html>
+
+
+</body>
+
+</html>
